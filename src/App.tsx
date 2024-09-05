@@ -1,12 +1,14 @@
+import { Footer } from "./components/footer"
 import { Header } from "./components/header"
 import { Consultas } from "./components/sections/consultas"
+import { Contato } from "./components/sections/contato"
 import { Home } from "./components/sections/home"
 import { Servicos } from "./components/sections/servicos"
 import { Sobre } from "./components/sections/sobre"
 
 function App() {
   return (
-    <div className="max-w-[1600px] py-8">
+    <div className="max-w-[1800px] pt-8">
       <Header />
       <main className="mt-[120px]">
         <Home />
@@ -15,7 +17,9 @@ function App() {
           <Servicos />
         </div>
         <Consultas />
+        <Contato />
       </main>
+      <Footer />
     </div>
   )
 }

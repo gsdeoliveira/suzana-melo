@@ -36,7 +36,7 @@ export const Header = () => {
   }, [activeSection])
 
   return (
-    <header className="bg-zinc-800 rounded-[72px] fixed z-10 left-[50px] right-[50px] max-w-[1600px] mx-auto">
+    <header className="bg-zinc-800 rounded-[72px] fixed z-50 left-[50px] right-[50px] max-w-[1600px] mx-auto">
       <Menu>
         <MenuItem href="#home" active={activeSection === "home"}>
           Home

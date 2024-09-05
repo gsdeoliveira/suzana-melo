@@ -2,7 +2,10 @@ import suzana from "../../assets/suzana-consultas.png"
 
 export const Consultas = () => {
   return (
-    <section className="bg-zinc-300 rounded-[72px] flex gap-5 mt-[100px] -z-10 relative bottom-96">
+    <section
+      className="bg-zinc-300 rounded-[72px] flex gap-5 mt-[100px] z-10 relative bottom-96"
+      id="consultas"
+    >
       <div className="pl-16 pt-16 pb-16">
         <p className="uppercase text-zinc-600 text-[24px] font-medium">
           Como funciona
