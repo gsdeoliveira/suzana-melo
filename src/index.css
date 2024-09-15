@@ -26,11 +26,18 @@ html, body, .font-roboto {
 }
 
 .vertical-text {
-  writing-mode: vertical-rl;
-  rotate: 180deg;
+  writing-mode: horizontal-tb;
 }
 
 .bg-rows {
   background: url('../src/assets/rows.svg') no-repeat 5% 200px;
   background-size: cover;
+}
+
+@media screen and (min-width: 640px) {
+  .vertical-text {
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+  }
+  
 }

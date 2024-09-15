@@ -6,8 +6,8 @@ import logo from "../assets/logo.png"
 
 export const Footer = () => {
   return (
-    <footer className="bg-zinc-800 text-zinc-400 flex flex-col gap-10 p-[50px] mt-[100px]">
-      <div className="flex items-center justify-between gap-10">
+    <footer className="bg-zinc-800 text-zinc-400 flex flex-col gap-10 p-5 md:p-[50px] mt-[100px]">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-10">
         <div className="basis-6/12">
           <div className="flex flex-col">
             <img src={logo} alt="logo" width={135} height={60} />
@@ -19,7 +19,7 @@ export const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-20">
+        <div className="flex flex-col sm:flex-row gap-5 sm:gap-20">
           <div className="flex flex-col gap-3">
             <h3 className="uppercase text-white font-medium text-[20px]">
               Navegação
@@ -50,7 +50,7 @@ export const Footer = () => {
         <MdOutlineEmail size={30} />
         <RiMapPin2Line size={30} />
       </div>
-      <div className="flex justify-between">
+      <div className="flex flex-col md:flex-row justify-between">
         <p>© Alguns direitos reservados.</p>
         <p>Política de Privacidade | Termos de Uso</p>
       </div>

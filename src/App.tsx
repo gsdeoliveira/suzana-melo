@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="max-w-[1800px] pt-8">
       <Header />
-      <main className="mt-[120px]">
+      <main className="md:mt-[120px]">
         <Home />
         <div className="bg-rows pb-96">
           <Sobre />
